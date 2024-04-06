@@ -1,0 +1,87 @@
+.invoice {
+}
+.invoice_heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.heading_left {
+  text-align: center;
+}
+
+.heading_left > h2 {
+  text-align: left;
+  font-size: 3.3rem;
+}
+.heading_left > h5 {
+  margin-left: 30px;
+  color: rgb(6, 207, 207);
+  margin-top: -15px;
+  font-size: 1.1rem;
+}
+.green {
+  color: #00a754;
+  margin-right: -12px;
+}
+
+.heading_right {
+}
+.property {
+}
+.property h3 {
+  font-size: 1.2rem;
+}
+.property h5 {
+  font-size: 0.8rem;
+}
+
+.heading_hr {
+  width: 100%;
+  border: 1px double black;
+}
+
+.customer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px auto;
+}
+
+.customer_left > h3 {
+  font-size: 1.2rem;
+}
+.customer_right > h3 {
+  font-size: 1.2rem;
+}
+.invoice_footer {
+}
+.tAmount {
+  background-color: rgb(6, 150, 150);
+  color: white;
+  padding: 10px;
+  width: 350px;
+  margin-top: 15px;
+  font-size: 1.8rem;
+  border-radius: 5px;
+}
+.authorize {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 130px;
+  margin-bottom: 10px;
+}
+.authorize_left {
+}
+.authorize_right {
+}
+.authorize_hr {
+  border: 0.5px solid;
+  border-bottom: none;
+}
+.condition {
+  margin-top: 15px;
+}
+.condition > h3 {
+  font-size: 1rem;
+}
